@@ -1,0 +1,11 @@
+#hours,#min,#sec {
+    display: inline-block;
+    padding-right: 8px;
+    font-size: 50px;
+}
+#stopwatch{
+    padding: 50px 0 0 50px;
+}
+#panel {
+    padding: 0 0 0 50px;
+}
