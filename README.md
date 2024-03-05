@@ -1,23 +1,21 @@
 on React
 
-Реализовать секундомер, который подсчитывает время в формате «HH: MM: SS»
+Implement a stopwatch that counts time in the format "HH:MM:SS".
 
-Таймер должен иметь следующие кнопки:
+The timer should have the following buttons:
 
-* «Start / Stop» - запуск / остановка отсчета времени, останавливает и обнуляет значение таймера.
+"Start/Stop" - starts/stops the timer, stops and resets the timer value.
 
-* «Wait» - работает на двойной клик (время между нажатиями не более 300 мс!) таймер должен прекратить отсчет времени; если после него нажать старт, то возобновляется отсчет.
+"Wait" - works on double click (time between clicks not more than 300 ms!) the timer should stop counting; if start is pressed after that, the countdown resumes.
 
-* «Reset» - сброс таймера на 0.  Обнуляет таймер и снова начинает отсчет.
+"Reset" - resets the timer to 0. Resets the timer and starts the countdown again.
 
-Требования:
+Requirements:
 
- - используйте Observables в коде
+use Observables in the code
 
- - RxJS подход
+RxJS approach
 
- - функциональный подход
+functional approach
 
- - нам важнее всего увидеть Ваше умение писать код
-
-- 300млс – это не DoubleClick
+300ms - this is not DoubleClick
